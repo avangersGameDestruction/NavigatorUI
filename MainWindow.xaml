@@ -11,6 +11,14 @@
         WindowStyle="None"
         WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <!-- background color -->
+        <Grid Background="Black">
+            <!-- navigation panel -->
+            <Grid x:Name="navpanel" HorizontalAlignment="Left" Width="65" Background="Gray">
+                <StackPanel x:Name="stackpnl">
+                    
+                </StackPanel>
+            </Grid>
+        </Grid>
     </Grid>
 </Window>

@@ -20,7 +20,10 @@
                     <Grid Height="90">
                         <!-- Toggle Button -->
                         <ToggleButton x:Name="togglebtn" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="18, -20, 0, 0" Height="30" Width="30" BorderThickness="0">
-                            
+                            <!-- Toggle Button default image -->
+                            <ToggleButton.Background>
+                                <ImageBrush ImageSource="Assests/icons8-navigation-24.png"></ImageBrush>
+                            </ToggleButton.Background>
                         </ToggleButton>
                     </Grid>
                 </StackPanel>

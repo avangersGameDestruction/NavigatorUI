@@ -34,6 +34,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ReactorLocation>""</ReactorLocation>
+    <ReactorProject>"ReactorProject"</ReactorProject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -103,4 +107,9 @@
     <Resource Include="Assests\icons8-user-folder-24.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Reactor_Deploy="0" Reactor_Output="&lt;AssemblyLocation&gt;\&lt;AssemblyFileName&gt;" Reactor_Configuration="ALL" Reactor_Project="" Reactor_Commands="" Reactor_Enabled="0" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>
